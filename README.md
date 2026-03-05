@@ -1,7 +1,6 @@
-# Selamlar, Ben Ekrem Tezcan Sarıdağ! 👋
-
-
----
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com/?font=VT323&weight=600&size=45&duration=3000&pause=1000&color=00F3FF&center=false&vCenter=false&width=600&lines=Selamlar,+Ben+Ekrem+Tezcan!;" alt="Typing SVG" />
+</a>
 
 ### 🛠️ Yetenekler & Teknolojiler (Skills)
 
@@ -30,7 +29,7 @@
 ### 🌐 Sosyal Medya & İletişim
 
 <p align="left">
-  <a href="https://linkedin.com/in/SENIN_LINKEDIN_ADRESIN](https://www.linkedin.com/in/ekrem-tezcan-sar%C4%B1da%C4%9F-3a30a531a/)" target="_blank">
+  <a href="https://www.linkedin.com/in/ekrem-tezcan-sar%C4%B1da%C4%9F-3a30a531a" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 
