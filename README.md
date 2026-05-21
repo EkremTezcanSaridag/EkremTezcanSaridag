@@ -6,7 +6,7 @@
 
 ---
 
-### 📡 AUTOMATIC REPOSITORY INFRASTRUCTURE
+
 
 ![](https://github-profile-trophy.vercel.app/?username=EkremTezcanSaridag&theme=tokyonight&no-bg=true&margin-w=15)
 
