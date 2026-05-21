@@ -6,9 +6,9 @@
 
 ---
 
-### 📡 SYSTEM METRICS & MOST USED LANGUAGES
+### 📡 SYSTEM METRICS & AUTOMATIC LANGUAGE PROFILE
 
-[![Ekrem's Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=EkremTezcanSaridag&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)](https://github.com/anuraghazra/github-readme-stats)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EkremTezcanSaridag&layout=compact&theme=vision-friendly-dark&hide_border=true&langs_count=6-dark" width="60%" />
 
 ---
 
