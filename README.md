@@ -6,9 +6,9 @@
 
 ---
 
-### 📡 SYSTEM METRICS & AUTOMATIC LANGUAGE PROFILE
+### 📡 AUTOMATIC REPOSITORY INFRASTRUCTURE
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EkremTezcanSaridag&layout=compact&theme=vision-friendly-dark&hide_border=true&langs_count=6-dark" width="60%" />
+![](https://github-profile-trophy.vercel.app/?username=EkremTezcanSaridag&theme=tokyonight&no-bg=true&margin-w=15)
 
 ---
 
