@@ -7,11 +7,10 @@
 
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EkremTezcanSaridag&theme=tokyonight&hide_border=true&background=030712" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api?username=EkremTezcanSaridag&show_icons=true&theme=tokyonight&hide_border=true&bg_color=030712" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EkremTezcanSaridag&layout=compact&theme=tokyonight&hide_border=true&bg_color=030712&langs_count=6" width="65%" />
 </p>
 
----
+
 
 
 <p align="left"><strong>⚡ FRONTEND</strong></p>
