@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?font=VT323&weight=600&size=40&duration=2000&pause=1000&color=FF3333&center=true&vCenter=true&width=1000&height=100&lines=Ekrem+Tezcan+Saridag;" alt="Ekrem Tezcan Saridag" />
+    <img src="https://readme-typing-svg.demolab.com/?font=VT323&weight=600&size=50&duration=2500&pause=1000&color=39FF14&center=true&vCenter=true&width=1000&height=100&lines=EKREM+TEZCAN+SARIDAG;INITIALIZING+TERMINAL...;CHILLING+WITH+MORDECAI+AND+RIGBY...;" alt="Regular Show Terminal" />
   </a>
 </p>
 
@@ -10,21 +10,19 @@
 
 
 
-
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=EkremTezcanSaridag&show_icons=true&theme=radical&icon_color=FF3333&title_color=FF3333&text_color=FFFFFF&bg_color=0D1117&hide_border=true" alt="Ekrem Tezcan Saridag GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=EkremTezcanSaridag&show_icons=true&theme=matrix&icon_color=39FF14&title_color=39FF14&text_color=FFFFFF&bg_color=0D1117&hide_border=true" alt="Terminal Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EkremTezcanSaridag&theme=radical&ring=FF3333&fire=FF3333&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EkremTezcanSaridag&theme=matrix&ring=39FF14&fire=39FF14&hide_border=true" alt="Terminal Streak" />
 </p>
 
 ---
 
-### 🛠️ Yetenekler & Teknolojiler (Skills)
+### 🛠️ Sistem Araçları (Skills)
 
-*Kullandığım ana diller ve araçlar:*
+*Benson işleri bitirmezsek bizi kovmadan önce kullandığımız teknolojiler:*
 
 <p align="left">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
@@ -47,14 +45,14 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ekrem-tezcan-sar%C4%B1da%C4%9F-3a30a531a" target="_blank">
-    <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://instagram.com/ekremtezcansaridag" target="_blank">
-    <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-  &nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://ekremtezcansaridag.free.nf" target="_blank">
-    <img src="https://img.shields.io/badge/WEB_SITEM-101010?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web Sitem" />
+    <img src="https://img.shields.io/badge/WEB_SITEM-101010?style=flat-square&logo=googlechrome&logoColor=white" alt="Web Sitem" />
   </a>
 </p>
