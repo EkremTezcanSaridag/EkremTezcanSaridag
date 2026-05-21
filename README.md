@@ -1,10 +1,9 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Courier+New&size=30&duration=2500&pause=500&color=00F2FE&center=true&vCenter=true&width=750&height=60&lines=EKREM+TEZCAN+SARIDAG;%2F%2F+FRONTEND+DEVELOPER;HTML+•+CSS+•+JS+•+REACT;C%23+•+PYTHON+•+ARDUINO" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Courier+New&size=32&duration=2500&pause=500&color=00F2FE&center=true&vCenter=true&width=750&height=60&lines=EKREM+TEZCAN+SARIDAG;%2F%2F+FRONTEND+DEVELOPER;SYSTEM+STATUS%3A+OVERLOAD+" alt="Typing SVG" />
 
 ![](https://capsule-render.vercel.app/api?type=waving&color=00f2fe&height=60&section=header&text=&fontSize=90)
 
----
 
 
 <p align="center">
@@ -36,14 +35,9 @@
 
 ```bash
 user@github:~$ whoami
-> EkremTezcanSaridag
-
-user@github:~$ cat skills.json
-{
-  "frontend": ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "React"],
-  "others": ["C#", "Arduino", "Python"],
-  "tools": ["Git", "GitHub", "Linux"]
-}
+> EkremTezcanSaridag (Frontend Developer)
 
 user@github:~$ system --status
-> ALL SYSTEMS OPERATIONAL // CODE. BUILD. DEPLOY. REPEAT.
+> CONNECTION : [ ████████████████ ] 100% (ONLINE)
+> FRONTEND   : ACTIVE_STREAM_DATA (RUNNING)
+> DEPLOYMENT : CODE. BUILD. DEPLOY. REPEAT.
