@@ -1,38 +1,67 @@
 <br>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=VT323&weight=600&size=45&duration=3000&pause=1000&color=00F3FF&center=false&vCenter=true&width=850&height=80&lines=Selamlar,+Ben+Ekrem+Tezcan!;" alt="Typing SVG" />
-</a>
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com/?font=VT323&weight=600&size=45&duration=3000&pause=1000&color=FF3333&center=true&vCenter=true&width=850&height=80&lines=TEZ-O:+UNDER+THE+HOOD...;E.T.S.+RACING+TEAM...;Quarter+Mile+at+a+Time...;" alt="Typing SVG" />
+  </a>
+</p>
 
-<br>
+<p align="center">
+  <img src="https://img.shields.io/badge/PROJECT-TEZ--O-red?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/STATUS-TUNING-orange?style=for-the-badge&logo=engineyard&logoColor=white" />
+  <img src="https://img.shields.io/badge/NITROUS-READY-00F3FF?style=for-the-badge&logo=speedtest&logoColor=white" />
+</p>
 
-### 🛠️ Yetenekler & Teknolojiler (Skills)
+---
 
-*Kullandığım ana diller ve araçlar:*
+### 🏎️ "Hayatı çeyrek milde bir yaşarım..."
+> *Önemli olan kaputun altında ne olduğu değil, direksiyonun arkasında kimin olduğudur. TEZ-O Masaüstü Asistanı, dijital dünyadaki en hızlı sağ kolum (Co-Pilot) olmak için garajda modifiye ediliyor.*
+
+---
+
+### 🛠️ Kaputun Altı (Yetenekler & Teknolojiler)
+
+*Bu makinede kullandığım ana diller, kütüphaneler ve performans araçları:*
 
 <p align="left">
+  <!-- Frontend Nitro -->
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />  
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery" />
   <img src="https://img.shields.io/badge/react-%2320232b.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
   <img src="https://img.shields.io/badge/bootstrap-%238511f2.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+  
+  <br>
+  
+  <!-- Engine Blocks -->
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> 
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
   <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" /> 
+  
+  <br>
+  
+  <!-- Pit Stop & Tools -->
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VS Code" />
 </p>
----
-
-### 📊 GitHub İstatistiklerim
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=EkremTezcanSaridag&theme=radium&hide_border=true" alt="GitHub Streak" />
-
 
 ---
 
-### 🌐 Sosyal Medya & İletişim
+### 📊 Dyno Testi (GitHub İstatistiklerim)
+
+*Motorun kaç beygir ürettiğini görelim (Commit & Streak Durumu):*
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EkremTezcanSaridag&theme=dark&theme=tokyonight&ring=FF3333&fire=FF3333&hide_border=true" alt="GitHub Streak" />
+</p>
+
+---
+
+### 🌐 Telsiz Frekansları (Sosyal Medya & İletişim)
+
+*Ekibe katılmak veya projeyi yakından takip etmek için:*
 
 <p align="left">
   <a href="https://www.linkedin.com/in/ekrem-tezcan-sar%C4%B1da%C4%9F-3a30a531a" target="_blank">
