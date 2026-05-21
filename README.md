@@ -2,18 +2,17 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?font=VT323&weight=600&size=45&duration=3000&pause=1000&color=FF3333&center=true&vCenter=true&width=850&height=80&lines=Ekrem+Tezcan+Sarıdağ;" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com/?font=VT323&weight=600&size=45&duration=3000&pause=1000&color=FF3333&center=true&vCenter=true&width=850&height=80&lines=Ekrem+Tezcan+Saridag;" alt="Ekrem Tezcan Saridag" />
   </a>
 </p>
 
 ---
 
-### 🏎️ Yarış Performansı & Commit Takibi (Stats)
 
-*GitHub commit serileri ve günlük kodlama temposu (Hız Göstergesi):*
+
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EkremTezcanSaridag&theme=dark&theme=tokyonight&ring=FF3333&fire=FF3333&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EkremTezcanSaridag&theme=tokyonight&ring=FF3333&fire=FF3333&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
