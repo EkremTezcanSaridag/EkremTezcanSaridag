@@ -4,14 +4,15 @@
 
 ![](https://capsule-render.vercel.app/api?type=waving&color=00f2fe&height=60&section=header&text=&fontSize=90)
 
+---
 
+### 📡 SYSTEM METRICS & MOST USED LANGUAGES
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EkremTezcanSaridag&layout=compact&theme=tokyonight&hide_border=true&bg_color=030712&langs_count=6" width="65%" />
-</p>
+[![Ekrem's Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=EkremTezcanSaridag&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)](https://github.com/anuraghazra/github-readme-stats)
 
+---
 
-
+</div>
 
 <p align="left"><strong>⚡ FRONTEND</strong></p>
 <p align="left">
@@ -29,8 +30,6 @@
 </p>
 
 ---
-
-
 
 ```bash
 user@github:~$ whoami
