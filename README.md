@@ -39,3 +39,6 @@ user@github:~$ system --status
 > CONNECTION : [ ████████████████ ] 100% (ONLINE)
 > FRONTEND   : ACTIVE_STREAM_DATA (RUNNING)
 > DEPLOYMENT : CODE. BUILD. DEPLOY. REPEAT.
+
+
+![Ekrem'in Katkı Grafiği](https://github-readme-stats.vercel.app/api?username=EkremTezcanSaridag&theme=radical&show_icons=true)
