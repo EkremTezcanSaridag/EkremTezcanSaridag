@@ -14,7 +14,7 @@
 
 <p align="left"><strong>⚡ FRONTEND</strong></p>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,jquery,bootstrap,react" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,jquery,bootstrap" />
 </p>
 
 <p align="left"><strong>🚀 BACKEND & SCRIPTING</strong></p>
