@@ -6,7 +6,6 @@
 
 <br><br>
 
-<img src="https://github-profile-trophy.vercel.app/?username=EkremTezcanSaridag&theme=tokyonight&no-bg=true&margin-w=15" alt="Trophies" />
 
 </div>
 
