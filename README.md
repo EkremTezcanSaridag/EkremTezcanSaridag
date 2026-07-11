@@ -22,7 +22,7 @@
 
 <p align="left"><strong>🛠️ ENVIRONMENT & VERSION CONTROL</strong></p>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,linux,azure" />
+  <img src="https://skillicons.dev/icons?i=git,github,linux,azure,docker" />
 </p>
 
 ---
