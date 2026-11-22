@@ -1,37 +1,69 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Courier+New&size=32&duration=2500&pause=500&color=00F2FE&center=true&vCenter=true&width=750&height=60&lines=EKREM+TEZCAN+SARIDAG;%2F%2F+FRONTEND+DEVELOPER;SYSTEM+STATUS%3A+OVERLOAD+" alt="Typing SVG" />
+<img src="./assets/header-banner.svg" alt="Ekrem Tezcan Sarıdağ - Frontend Developer Grandmaster Edition" width="100%" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00f2fe&height=60&section=header&text=&fontSize=90" alt="Wave" />
+<br/><br/>
 
-<br><br>
+<img src="./assets/divider.svg" alt="Divider" width="100%" />
+
+### ♔ TAŞ DİZİLİMİ & TEKNOLOJİ CEPHANELİĞİ
+
+<table>
+  <tr>
+    <th align="center">♛ VEZİR · FRONTEND</th>
+    <th align="center">♞ AT · BACKEND &amp; SCRIPTING</th>
+    <th align="center">♜ KALE · ORTAM &amp; ALTYAPI</th>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
+      <sub><i>Tahtanın her yönüne hükmeden arayüzler</i></sub>
+      <br/><br/>
+      <img src="https://skillicons.dev/icons?i=html,css,js,jquery,bootstrap&theme=dark&perline=5" alt="Frontend Teknolojileri" />
+    </td>
+    <td align="center" valign="middle">
+      <sub><i>Keskin hamleler ve güçlü otomasyon</i></sub>
+      <br/><br/>
+      <img src="https://skillicons.dev/icons?i=cs,py&theme=dark&perline=5" alt="Backend ve Scripting" />
+    </td>
+    <td align="center" valign="middle">
+      <sub><i>Sağlam hatlar, sürüm ve bulut kontrolü</i></sub>
+      <br/><br/>
+      <img src="https://skillicons.dev/icons?i=git,github,linux,azure,docker&theme=dark&perline=5" alt="Ortam ve Versiyon Kontrolü" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<img src="./assets/divider.svg" alt="Divider" width="100%" />
+
+### ♚ OYUN PLANI & GELİŞTİRME STRATEJİSİ
+
+<img src="./assets/strategy-board.svg" alt="Oyun Planı - Açılış, Oyun Ortası ve Oyun Sonu" width="100%" />
+
+<br/>
+
+<img src="./assets/divider.svg" alt="Divider" width="100%" />
 
 </div>
 
----
-
-<p align="left"><strong>⚡ FRONTEND</strong></p>
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,jquery,bootstrap" />
-</p>
-
-<p align="left"><strong>🚀 BACKEND & SCRIPTING</strong></p>
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=cs,py" />
-</p>
-
-<p align="left"><strong>🛠️ ENVIRONMENT & VERSION CONTROL</strong></p>
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,linux,azure,docker" />
-</p>
-
----
-
 ```bash
-user@github:~$ whoami
-> EkremTezcanSaridag (Frontend Developer)
+ekrem@grandmaster:~$ whoami
+> Ekrem Tezcan Sarıdağ (Frontend Developer)
 
-user@github:~$ system --status
-> CONNECTION : [ ████████████████ ] 100% (ONLINE)
-> FRONTEND   : ACTIVE_STREAM_DATA (RUNNING)
-> DEPLOYMENT : CODE. BUILD. DEPLOY. REPEAT.
+ekrem@grandmaster:~$ game --status
+> AÇILIŞ     : 1. e4 — Temiz Kod & Modern Arayüz
+> BAĞLANTI   : [ ████████████████ ] 100% (AKTİF)
+> FRONTEND   : HTML · CSS · JS · jQuery · Bootstrap
+> TAKTİK     : C# · Python · Otomasyon
+> ALTYAPI    : Git · GitHub · Linux · Azure · Docker
+> DÖNGÜ      : KODLA. GELİŞTİR. MAT ET. TEKRARLA.
+```
+
+<br/>
+
+<div align="center">
+
+<img src="./assets/footer-banner.svg" alt="Ekrem Tezcan Sarıdağ - Şah Mat" width="100%" />
+
+</div>
