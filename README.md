@@ -6,12 +6,6 @@
 
 <br/>
 
-### Hakkımda
-
-- Web arayüzleri, modern JavaScript projeleri ve Python araçları geliştiriyorum.
-- Satranç ve analiz motorlarıyla ilgileniyorum — bkz. [`stockfish-review`](https://github.com/EkremTezcanSaridag/stockfish-review).
-- Sade, hızlı ve işini iyi yapan şeyler üretmeye odaklanıyorum.
-
 ---
 
 ### Teknolojiler
