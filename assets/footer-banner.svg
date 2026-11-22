@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="118" viewBox="0 0 900 118" role="img" aria-label="Ekrem Tezcan Sarıdağ Footer">
+  <defs>
+    <linearGradient id="fBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#090B0F"/>
+      <stop offset="50%" stop-color="#131823"/>
+      <stop offset="100%" stop-color="#090B0F"/>
+    </linearGradient>
+    <linearGradient id="fGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2C6"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8A6614"/>
+    </linearGradient>
+    <linearGradient id="fEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#D4AF37" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="checkerEdge" width="24" height="12" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="12" height="6" fill="#D4AF37" fill-opacity="0.16"/>
+      <rect x="12" y="6" width="12" height="6" fill="#D4AF37" fill-opacity="0.16"/>
+    </pattern>
+    <clipPath id="fClip">
+      <rect x="1" y="1" width="898" height="116" rx="14"/>
+    </clipPath>
+    <style>
+      .quote {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 15px;
+        font-style: italic;
+        fill: #EDE4D3;
+        letter-spacing: 0.4px;
+      }
+      .sig {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 10.5px;
+        font-weight: 600;
+        letter-spacing: 2.6px;
+        fill: #D4AF37;
+      }
+      .files {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 9.5px;
+        letter-spacing: 1px;
+        fill: #857242;
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#fClip)">
+    <rect x="0" y="0" width="900" height="118" fill="url(#fBg)"/>
+    <rect x="0" y="0" width="900" height="2" fill="url(#fEdge)"/>
+    <rect x="0" y="104" width="900" height="14" fill="url(#checkerEdge)"/>
+  </g>
+
+  <rect x="1" y="1" width="898" height="116" rx="14" fill="none" stroke="#D4AF37" stroke-opacity="0.34" stroke-width="1.1"/>
+
+  <!-- Small Centered King Emblem -->
+  <g transform="translate(437, 13) scale(0.58)">
+    <path d="M22.5 3 V11 M18.5 7 H26.5" stroke="url(#fGold)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M22.5 11 C17.5 11 13 15 13 21 C13 24.5 15 27 16.5 29 H28.5 C30 27 32 24.5 32 21 C32 15 27.5 11 22.5 11 Z" fill="url(#fGold)"/>
+    <rect x="13" y="30.5" width="19" height="3.5" rx="1.2" fill="url(#fGold)"/>
+    <rect x="11" y="35" width="23" height="4" rx="1.5" fill="url(#fGold)"/>
+  </g>
+
+  <text x="450" y="57" text-anchor="middle" class="quote">"İyi bir yazılım, üç hamle sonrasını gören bir satranç oyunu gibidir."</text>
+  <text x="450" y="80" text-anchor="middle" class="sig">EKREM TEZCAN SARIDAĞ  ·  1-0  ·  ŞAH MAT</text>
+  <text x="450" y="98" text-anchor="middle" class="files" xml:space="preserve">a1   ·   b1   ·   c1   ·   d1   ·   e1   ·   f1   ·   g1   ·   h1</text>
+</svg>

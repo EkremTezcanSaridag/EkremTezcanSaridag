@@ -1,0 +1,368 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Ekrem Tezcan Sarıdağ - Frontend Developer Grandmaster Edition">
+  <defs>
+    <!-- Background Obsidian Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080A0E"/>
+      <stop offset="52%" stop-color="#11151E"/>
+      <stop offset="100%" stop-color="#090B10"/>
+    </linearGradient>
+
+    <!-- Gold Metallic Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2C6"/>
+      <stop offset="35%" stop-color="#E6C364"/>
+      <stop offset="70%" stop-color="#C89B2B"/>
+      <stop offset="100%" stop-color="#8A6614"/>
+    </linearGradient>
+
+    <!-- Soft Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="55%" stop-color="#F2E4C2"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+
+    <!-- Gold Horizontal Line Fade -->
+    <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.9"/>
+      <stop offset="65%" stop-color="#D4AF37" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Ambient Gold Glow -->
+    <radialGradient id="ambientGlow" cx="76%" cy="48%" r="36%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.20"/>
+      <stop offset="60%" stop-color="#D4AF37" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Left Subtle Spotlight -->
+    <radialGradient id="leftGlow" cx="18%" cy="35%" r="42%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Danger Check Halo on h8 -->
+    <radialGradient id="checkHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E04848" stop-opacity="0.58"/>
+      <stop offset="65%" stop-color="#B91C1C" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#B91C1C" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Knight Victory Square Glow on f7 -->
+    <radialGradient id="goldSquareGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#F8DE8C" stop-opacity="0.48"/>
+      <stop offset="70%" stop-color="#D4AF37" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Eval Bar Gold -->
+    <linearGradient id="evalGold" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#9A7218"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#FFF0BC"/>
+    </linearGradient>
+
+    <!-- Soft Drop Shadow -->
+    <filter id="glowGold" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="pieceShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#000000" flood-opacity="0.75"/>
+    </filter>
+
+    <!-- Subtle background diagonal pattern -->
+    <pattern id="subtleGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#FFFFFF" fill-opacity="0.012"/>
+      <rect x="16" y="16" width="16" height="16" fill="#FFFFFF" fill-opacity="0.012"/>
+    </pattern>
+
+    <clipPath id="cardClip">
+      <rect x="1" y="1" width="898" height="298" rx="16"/>
+    </clipPath>
+
+    <style>
+      .eyebrow {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 2.8px;
+        fill: #D4AF37;
+      }
+      .title {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 1.6px;
+        fill: url(#titleGrad);
+      }
+      .subtitle {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 2.4px;
+        fill: #C6CCD8;
+      }
+      .motto {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 13.5px;
+        font-style: italic;
+        fill: #98A2B3;
+      }
+      .pill-text {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 10.5px;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        fill: #E6D5A7;
+      }
+      .coord {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 10px;
+        font-weight: 600;
+        fill: #8E7840;
+      }
+      .eval-txt {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 9px;
+        font-weight: 700;
+        fill: #0B0D12;
+      }
+      .board-caption {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 9.5px;
+        letter-spacing: 1.4px;
+        fill: #A99050;
+      }
+
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.45; transform: scale(0.85); }
+      }
+      @keyframes pulseHalo {
+        0%, 100% { opacity: 0.9; }
+        50% { opacity: 0.45; }
+      }
+      @keyframes knightFloat {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-2.5px); }
+      }
+      @keyframes dashFlow {
+        0% { stroke-dashoffset: 24; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes evalPulse {
+        0%, 100% { opacity: 0.95; }
+        50% { opacity: 0.78; }
+      }
+
+      .anim-dot {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: pulseDot 2.2s ease-in-out infinite;
+      }
+      .anim-halo {
+        animation: pulseHalo 2.6s ease-in-out infinite;
+      }
+      .anim-knight {
+        animation: knightFloat 3.2s ease-in-out infinite;
+      }
+      .anim-arrow {
+        stroke-dasharray: 6 6;
+        animation: dashFlow 1.6s linear infinite;
+      }
+      .anim-eval {
+        animation: evalPulse 3s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Main Card Frame -->
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="0" width="900" height="300" fill="url(#bgGrad)"/>
+    <rect x="0" y="0" width="900" height="300" fill="url(#subtleGrid)"/>
+    <rect x="0" y="0" width="900" height="300" fill="url(#ambientGlow)"/>
+    <rect x="0" y="0" width="900" height="300" fill="url(#leftGlow)"/>
+
+    <!-- Subtle top gold shimmer accent -->
+    <rect x="80" y="0" width="740" height="2" fill="url(#goldLine)" opacity="0.65"/>
+  </g>
+
+  <!-- Outer & Inner Luxury Borders -->
+  <rect x="1" y="1" width="898" height="298" rx="16" fill="none" stroke="#D4AF37" stroke-opacity="0.38" stroke-width="1.2"/>
+  <rect x="10" y="10" width="880" height="280" rx="11" fill="none" stroke="#D4AF37" stroke-opacity="0.13" stroke-width="1"/>
+
+  <!-- Corner Brackets -->
+  <path d="M22 36 L22 22 L36 22" fill="none" stroke="#D4AF37" stroke-width="1.6" stroke-opacity="0.75"/>
+  <path d="M864 22 L878 22 L878 36" fill="none" stroke="#D4AF37" stroke-width="1.6" stroke-opacity="0.75"/>
+  <path d="M22 264 L22 278 L36 278" fill="none" stroke="#D4AF37" stroke-width="1.6" stroke-opacity="0.75"/>
+  <path d="M864 278 L878 278 L878 264" fill="none" stroke="#D4AF37" stroke-width="1.6" stroke-opacity="0.75"/>
+
+  <!-- LEFT CONTENT ZONE -->
+  <g transform="translate(54, 48)">
+    <!-- Eyebrow + Miniature Gold Crown Icon -->
+    <g transform="translate(0, 0)">
+      <path d="M0 11 L3 3 L8 8 L12 1 L16 8 L21 3 L24 11 Z M2 13 L22 13 L22 15 L2 15 Z" fill="url(#goldGrad)"/>
+      <text x="34" y="12" class="eyebrow">GRANDMASTER EDITION · KOD &amp; STRATEJİ</text>
+    </g>
+
+    <!-- Main Name -->
+    <text x="0" y="68" class="title">EKREM TEZCAN</text>
+    <text x="0" y="108" class="title">SARIDAĞ</text>
+
+    <!-- Gold Ornament Divider -->
+    <g transform="translate(0, 126)">
+      <rect x="4" y="-0.75" width="430" height="1.5" fill="url(#goldLine)"/>
+      <polygon points="0,-4 4,0 0,4 -4,0" fill="#E6C364" transform="translate(4, 0)"/>
+    </g>
+
+    <!-- Role Subtitle -->
+    <text x="0" y="156" class="subtitle">FRONTEND DEVELOPER  ·  STRATEJİK MİMARİ</text>
+
+    <!-- Motto -->
+    <text x="0" y="182" class="motto">"Tahtada denge, kodda zarafet, her hamlede kesin sonuç."</text>
+
+    <!-- Status Pills -->
+    <g transform="translate(0, 202)">
+      <!-- Pill 1: Online Status -->
+      <rect x="0" y="0" width="136" height="28" rx="6" fill="#141923" stroke="#D4AF37" stroke-opacity="0.4" stroke-width="1"/>
+      <circle cx="17" cy="14" r="4" fill="#F0C85A" class="anim-dot" filter="url(#glowGold)"/>
+      <text x="29" y="18" class="pill-text">DURUM: AKTİF</text>
+
+      <!-- Pill 2: Move Notation -->
+      <rect x="148" y="0" width="184" height="28" rx="6" fill="#141923" stroke="#D4AF37" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="240" y="18" text-anchor="middle" class="pill-text">HAMLE: 5. Nf7# (1-0)</text>
+
+      <!-- Pill 3: Rank -->
+      <rect x="344" y="0" width="112" height="28" rx="6" fill="#1B1811" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="1"/>
+      <text x="400" y="18" text-anchor="middle" class="pill-text" fill="#F8E09B">ELO: ∞ DEV</text>
+    </g>
+  </g>
+
+  <!-- RIGHT CONTENT ZONE: PHILIDOR'S LEGACY SMOTHERED MATE (e5-h8) -->
+  <g transform="translate(592, 24)">
+    <!-- Board Bezel -->
+    <rect x="0" y="0" width="234" height="234" rx="10" fill="#0B0E14" stroke="#D4AF37" stroke-opacity="0.5" stroke-width="1.2"/>
+
+    <!-- Rank Coordinates (8, 7, 6, 5) -->
+    <text x="7" y="42" class="coord">8</text>
+    <text x="7" y="92" class="coord">7</text>
+    <text x="7" y="142" class="coord">6</text>
+    <text x="7" y="192" class="coord">5</text>
+
+    <!-- File Coordinates (e, f, g, h) -->
+    <text x="41" y="226" class="coord">e</text>
+    <text x="91" y="226" class="coord">f</text>
+    <text x="141" y="226" class="coord">g</text>
+    <text x="191" y="226" class="coord">h</text>
+
+    <!-- 4x4 Chessboard Grid (x=20, y=12, square=50px) -->
+    <g transform="translate(20, 12)">
+      <!-- Row 0: Rank 8 (e8 light, f8 dark, g8 light, h8 dark) -->
+      <rect x="0"   y="0"   width="50" height="50" fill="#232A38"/>
+      <rect x="50"  y="0"   width="50" height="50" fill="#131722"/>
+      <rect x="100" y="0"   width="50" height="50" fill="#232A38"/>
+      <rect x="150" y="0"   width="50" height="50" fill="#131722"/>
+
+      <!-- Row 1: Rank 7 (e7 dark, f7 light, g7 dark, h7 light) -->
+      <rect x="0"   y="50"  width="50" height="50" fill="#131722"/>
+      <rect x="50"  y="50"  width="50" height="50" fill="#232A38"/>
+      <rect x="100" y="50"  width="50" height="50" fill="#131722"/>
+      <rect x="150" y="50"  width="50" height="50" fill="#232A38"/>
+
+      <!-- Row 2: Rank 6 (e6 light, f6 dark, g6 light, h6 dark) -->
+      <rect x="0"   y="100" width="50" height="50" fill="#232A38"/>
+      <rect x="50"  y="100" width="50" height="50" fill="#131722"/>
+      <rect x="100" y="100" width="50" height="50" fill="#232A38"/>
+      <rect x="150" y="100" width="50" height="50" fill="#131722"/>
+
+      <!-- Row 3: Rank 5 (e5 dark, f5 light, g5 dark, h5 light) -->
+      <rect x="0"   y="150" width="50" height="50" fill="#131722"/>
+      <rect x="50"  y="150" width="50" height="50" fill="#232A38"/>
+      <rect x="100" y="150" width="50" height="50" fill="#131722"/>
+      <rect x="150" y="150" width="50" height="50" fill="#232A38"/>
+
+      <!-- Origin Square Highlight: h6 -->
+      <rect x="150" y="100" width="50" height="50" fill="#D4AF37" fill-opacity="0.16"/>
+      <rect x="151.5" y="101.5" width="47" height="47" fill="none" stroke="#D4AF37" stroke-opacity="0.45" stroke-width="1" stroke-dasharray="3 3"/>
+
+      <!-- Destination Square Highlight: f7 -->
+      <rect x="50" y="50" width="50" height="50" fill="url(#goldSquareGlow)"/>
+      <rect x="51" y="51" width="48" height="48" fill="none" stroke="#F0C85A" stroke-opacity="0.85" stroke-width="1.5"/>
+
+      <!-- Checkmate Danger Glow on h8 -->
+      <rect x="150" y="0" width="50" height="50" fill="url(#checkHalo)" class="anim-halo"/>
+      <rect x="151" y="1" width="48" height="48" fill="none" stroke="#E05252" stroke-opacity="0.7" stroke-width="1.2" class="anim-halo"/>
+
+      <!-- Inner Board Border -->
+      <rect x="0" y="0" width="200" height="200" fill="none" stroke="#D4AF37" stroke-opacity="0.35" stroke-width="1"/>
+
+      <!-- Tactical L-Jump Arrow: h6 (175,125) -> f7 (75,75) -->
+      <path d="M175 125 L75 125 L75 94" fill="none" stroke="#F0C85A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.85" class="anim-arrow"/>
+      <polygon points="75,86 69,96 81,96" fill="#F0C85A" opacity="0.92"/>
+      <circle cx="175" cy="125" r="3.8" fill="#D4AF37" opacity="0.75"/>
+
+      <!-- PIECE 1: BLACK KING on h8 (150,0 -> center 175,25) -->
+      <g transform="translate(154, 4) scale(0.93)" filter="url(#pieceShadow)">
+        <!-- Cross -->
+        <path d="M22.5 5 V12 M19 8 H26" stroke="#9AA4B8" stroke-width="2.2" stroke-linecap="round"/>
+        <!-- Crown / Body -->
+        <path d="M22.5 12 C18 12 13 15.5 13 21.5 C13 25 15 27.5 16.5 29.5 H28.5 C30 27.5 32 25 32 21.5 C32 15.5 27 12 22.5 12 Z" fill="#0B0E14" stroke="#A6B0C3" stroke-width="1.6"/>
+        <path d="M15 30 H30 L32 34.5 H13 Z" fill="#121620" stroke="#A6B0C3" stroke-width="1.5"/>
+        <rect x="11" y="35" width="23" height="4" rx="1.5" fill="#0B0E14" stroke="#A6B0C3" stroke-width="1.5"/>
+        <!-- Small red check badge -->
+        <circle cx="38" cy="7" r="6" fill="#C92A2A" stroke="#FF8787" stroke-width="1"/>
+        <text x="38" y="10.2" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#FFF">#</text>
+      </g>
+
+      <!-- PIECE 2: BLACK ROOK on g8 (100,0) -->
+      <g transform="translate(104, 5) scale(0.93)" filter="url(#pieceShadow)">
+        <path d="M12 10 H16 V13 H20 V10 H25 V13 H29 V10 H33 V17 L30 20 V31 L33 34 V38 H12 V34 L15 31 V20 L12 17 Z" fill="#0B0E14" stroke="#9EA8BC" stroke-width="1.5" stroke-linejoin="round"/>
+        <line x1="15" y1="20" x2="30" y2="20" stroke="#9EA8BC" stroke-width="1.2"/>
+        <line x1="15" y1="31" x2="30" y2="31" stroke="#9EA8BC" stroke-width="1.2"/>
+      </g>
+
+      <!-- PIECE 3: BLACK PAWN on g7 (100,50) -->
+      <g transform="translate(104, 56) scale(0.92)" filter="url(#pieceShadow)">
+        <circle cx="22.5" cy="13" r="5" fill="#0B0E14" stroke="#9EA8BC" stroke-width="1.5"/>
+        <path d="M18.5 18.5 C17.5 23 15 27 14 31 H31 C30 27 27.5 23 26.5 18.5 Z" fill="#0B0E14" stroke="#9EA8BC" stroke-width="1.5" stroke-linejoin="round"/>
+        <rect x="12" y="31.5" width="21" height="4.5" rx="1.8" fill="#0B0E14" stroke="#9EA8BC" stroke-width="1.5"/>
+      </g>
+
+      <!-- PIECE 4: BLACK PAWN on h7 (150,50) -->
+      <g transform="translate(154, 56) scale(0.92)" filter="url(#pieceShadow)">
+        <circle cx="22.5" cy="13" r="5" fill="#0B0E14" stroke="#9EA8BC" stroke-width="1.5"/>
+        <path d="M18.5 18.5 C17.5 23 15 27 14 31 H31 C30 27 27.5 23 26.5 18.5 Z" fill="#0B0E14" stroke="#9EA8BC" stroke-width="1.5" stroke-linejoin="round"/>
+        <rect x="12" y="31.5" width="21" height="4.5" rx="1.8" fill="#0B0E14" stroke="#9EA8BC" stroke-width="1.5"/>
+      </g>
+
+      <!-- PIECE 5: GOLDEN WHITE KNIGHT on f7 (50,50) - THE HERO CHECKMATE PIECE -->
+      <g class="anim-knight" filter="url(#pieceShadow)">
+        <g transform="translate(53, 53) scale(0.97)">
+          <!-- Sculptural Staunton Knight -->
+          <path d="M14 37 H32 V33.5 H14 Z" fill="url(#goldGrad)" stroke="#5E430A" stroke-width="1.1"/>
+          <path d="M16 33.5 C16.5 27 19.5 24 22.5 21.5 C19.5 21.5 16.5 22.5 14 23.5 C12.5 24 11 22.8 11.4 21.2 C12.2 18.5 14.8 15.5 17.2 13.4 C17.5 11.2 18.6 9.2 20.5 7.8 L21.4 10.6 C24.6 10.4 28.4 12.2 30.2 16.2 C31.8 19.8 31.6 26.2 30.6 33.5 Z" fill="url(#goldGrad)" stroke="#5E430A" stroke-width="1.2" stroke-linejoin="round"/>
+          <!-- Eye & Mane Accent -->
+          <circle cx="17.8" cy="15.8" r="1.2" fill="#141008"/>
+          <path d="M23.5 12.5 C26.8 14.2 28.6 18 28.4 24.5" fill="none" stroke="#FFF6D6" stroke-width="1.1" stroke-linecap="round" opacity="0.8"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- Evaluation Bar beside the board -->
+    <g transform="translate(244, 12)">
+      <rect x="0" y="0" width="16" height="200" rx="4" fill="#141822" stroke="#D4AF37" stroke-opacity="0.45" stroke-width="1"/>
+      <rect x="1.5" y="1.5" width="13" height="197" rx="3" fill="url(#evalGold)" class="anim-eval"/>
+      <text x="8" y="14" text-anchor="middle" class="eval-txt">M</text>
+      <text x="8" y="192" text-anchor="middle" class="eval-txt">1</text>
+    </g>
+
+    <!-- Board Subcaption -->
+    <text x="117" y="250" text-anchor="middle" class="board-caption">PHILIDOR MİRASI · BOĞMACA MATI</text>
+  </g>
+</svg>

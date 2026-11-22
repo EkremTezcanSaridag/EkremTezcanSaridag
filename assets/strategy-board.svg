@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="205" viewBox="0 0 900 205" role="img" aria-label="Oyun Planı ve Geliştirme Felsefesi">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1017"/>
+      <stop offset="100%" stop-color="#141925"/>
+    </linearGradient>
+    <linearGradient id="goldFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1C1"/>
+      <stop offset="45%" stop-color="#DFB951"/>
+      <stop offset="100%" stop-color="#8F6A14"/>
+    </linearGradient>
+    <linearGradient id="topBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#F2D06B" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="miniCheck" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#D4AF37" fill-opacity="0.04"/>
+      <rect x="8" y="8" width="8" height="8" fill="#D4AF37" fill-opacity="0.04"/>
+    </pattern>
+
+    <style>
+      .phase-tag {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        fill: #D4AF37;
+      }
+      .card-title {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 16.5px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+        fill: #F6EFE2;
+      }
+      .card-desc {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-size: 12.2px;
+        fill: #A4AEBF;
+      }
+      .card-footer {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 9px;
+        font-weight: 600;
+        letter-spacing: 0.45px;
+        fill: #E0C16A;
+      }
+    </style>
+  </defs>
+
+  <!-- CARD 1: AÇILIŞ (QUEEN - FRONTEND) -->
+  <g transform="translate(8, 10)">
+    <rect x="0" y="0" width="282" height="184" rx="14" fill="url(#cardBg)" stroke="#D4AF37" stroke-opacity="0.34" stroke-width="1.1"/>
+    <rect x="0" y="0" width="282" height="184" rx="14" fill="url(#miniCheck)"/>
+    <rect x="24" y="0" width="234" height="2" fill="url(#topBar)"/>
+
+    <!-- Piece Emblem Circle -->
+    <circle cx="38" cy="38" r="20" fill="#171C28" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="1.1"/>
+    <!-- Vector Queen -->
+    <g transform="translate(22, 21) scale(0.72)">
+      <circle cx="8" cy="11" r="2.2" fill="url(#goldFill)"/>
+      <circle cx="15" cy="7.5" r="2.2" fill="url(#goldFill)"/>
+      <circle cx="22.5" cy="6" r="2.3" fill="url(#goldFill)"/>
+      <circle cx="30" cy="7.5" r="2.2" fill="url(#goldFill)"/>
+      <circle cx="37" cy="11" r="2.2" fill="url(#goldFill)"/>
+      <path d="M9 14 L13 28 H32 L36 14 L29 22 L22.5 11 L16 22 Z" fill="url(#goldFill)"/>
+      <rect x="12" y="29.5" width="21" height="3.5" rx="1.2" fill="url(#goldFill)"/>
+      <rect x="10" y="34.5" width="25" height="4" rx="1.5" fill="url(#goldFill)"/>
+    </g>
+
+    <text x="68" y="32" class="phase-tag">01 · AÇILIŞ (1. e4)</text>
+    <text x="68" y="52" class="card-title">Arayüz Hakimiyeti</text>
+
+    <line x1="20" y1="70" x2="262" y2="70" stroke="#D4AF37" stroke-opacity="0.18" stroke-width="1"/>
+
+    <text x="20" y="95" class="card-desc">Tahtanın merkezini tutar gibi;</text>
+    <text x="20" y="114" class="card-desc">temiz, duyarlı ve akıcı arayüzler</text>
+    <text x="20" y="133" class="card-desc">ile sağlam bir ilk izlenim.</text>
+
+    <rect x="16" y="149" width="250" height="22" rx="5" fill="#181611" stroke="#D4AF37" stroke-opacity="0.3" stroke-width="0.9"/>
+    <text x="141" y="163.5" text-anchor="middle" class="card-footer">HTML · CSS · JS · JQUERY · BOOTSTRAP</text>
+  </g>
+
+  <!-- CARD 2: OYUN ORTASI (KNIGHT - BACKEND & SCRIPTING) -->
+  <g transform="translate(309, 10)">
+    <rect x="0" y="0" width="282" height="184" rx="14" fill="url(#cardBg)" stroke="#D4AF37" stroke-opacity="0.45" stroke-width="1.2"/>
+    <rect x="0" y="0" width="282" height="184" rx="14" fill="url(#miniCheck)"/>
+    <rect x="24" y="0" width="234" height="2" fill="url(#topBar)"/>
+
+    <circle cx="38" cy="38" r="20" fill="#171C28" stroke="#D4AF37" stroke-opacity="0.65" stroke-width="1.1"/>
+    <!-- Vector Knight -->
+    <g transform="translate(23, 21) scale(0.74)">
+      <path d="M13 37 H32 V33.5 H13 Z" fill="url(#goldFill)"/>
+      <path d="M15.5 33.5 C16 27 19 24 22 21.5 C19 21.5 16 22.5 13.5 23.5 C12 24 10.8 22.8 11.2 21.2 C12 18.5 14.5 15.5 17 13.4 C17.3 11.2 18.4 9.2 20.3 7.8 L21.2 10.6 C24.4 10.4 28.2 12.2 30 16.2 C31.6 19.8 31.4 26.2 30.4 33.5 Z" fill="url(#goldFill)"/>
+      <circle cx="17.5" cy="15.8" r="1.2" fill="#0E1118"/>
+    </g>
+
+    <text x="68" y="32" class="phase-tag">02 · OYUN ORTASI (Nf3)</text>
+    <text x="68" y="52" class="card-title">Taktik &amp; Otomasyon</text>
+
+    <line x1="20" y1="70" x2="262" y2="70" stroke="#D4AF37" stroke-opacity="0.18" stroke-width="1"/>
+
+    <text x="20" y="95" class="card-desc">Atın beklenmedik hamleleri gibi;</text>
+    <text x="20" y="114" class="card-desc">betikler ve arka plan mantığı ile</text>
+    <text x="20" y="133" class="card-desc">karmaşık problemleri çözmek.</text>
+
+    <rect x="16" y="149" width="250" height="22" rx="5" fill="#181611" stroke="#D4AF37" stroke-opacity="0.3" stroke-width="0.9"/>
+    <text x="141" y="163.5" text-anchor="middle" class="card-footer">C# · PYTHON · SCRIPTING</text>
+  </g>
+
+  <!-- CARD 3: OYUN SONU (ROOK - INFRA & DEVOPS) -->
+  <g transform="translate(610, 10)">
+    <rect x="0" y="0" width="282" height="184" rx="14" fill="url(#cardBg)" stroke="#D4AF37" stroke-opacity="0.34" stroke-width="1.1"/>
+    <rect x="0" y="0" width="282" height="184" rx="14" fill="url(#miniCheck)"/>
+    <rect x="24" y="0" width="234" height="2" fill="url(#topBar)"/>
+
+    <circle cx="38" cy="38" r="20" fill="#171C28" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="1.1"/>
+    <!-- Vector Rook -->
+    <g transform="translate(22, 21) scale(0.72)">
+      <path d="M12 10 H16 V13 H20 V10 H25 V13 H29 V10 H33 V17 L30 20 V31 L33 34 V38 H12 V34 L15 31 V20 L12 17 Z" fill="url(#goldFill)"/>
+      <line x1="15" y1="20" x2="30" y2="20" stroke="#11151E" stroke-width="1.3"/>
+      <line x1="15" y1="31" x2="30" y2="31" stroke="#11151E" stroke-width="1.3"/>
+    </g>
+
+    <text x="68" y="32" class="phase-tag">03 · OYUN SONU (1-0)</text>
+    <text x="68" y="52" class="card-title">Sağlam Altyapı</text>
+
+    <line x1="20" y1="70" x2="262" y2="70" stroke="#D4AF37" stroke-opacity="0.18" stroke-width="1"/>
+
+    <text x="20" y="95" class="card-desc">Kalenin açık hattı kontrolü gibi;</text>
+    <text x="20" y="114" class="card-desc">versiyon kontrolü, konteyner ve</text>
+    <text x="20" y="133" class="card-desc">bulut ile kesintisiz teslimat.</text>
+
+    <rect x="16" y="149" width="250" height="22" rx="5" fill="#181611" stroke="#D4AF37" stroke-opacity="0.3" stroke-width="0.9"/>
+    <text x="141" y="163.5" text-anchor="middle" class="card-footer">GIT · GITHUB · LINUX · AZURE · DOCKER</text>
+  </g>
+</svg>
