@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="190" viewBox="0 0 840 190" role="img" aria-label="Ekrem Tezcan Sarıdağ - Frontend Developer">
+  <defs>
+    <!-- GitHub Dark-Native Background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="60%" stop-color="#111722"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+
+    <!-- Subtle Cool Ambient Spotlight -->
+    <radialGradient id="spot" cx="82%" cy="46%" r="42%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.14"/>
+      <stop offset="55%" stop-color="#38BDF8" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Subtle Accent Line -->
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Subtle Chess Grid Fade Mask -->
+    <linearGradient id="gridMaskGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+    </linearGradient>
+    <mask id="gridMask">
+      <rect x="440" y="0" width="400" height="190" fill="url(#gridMaskGrad)"/>
+    </mask>
+
+    <!-- Architectural Minimal Chess Grid -->
+    <pattern id="chessGrid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <rect width="22" height="22" fill="#E6EDF3" fill-opacity="0.032"/>
+      <rect x="22" y="22" width="22" height="22" fill="#E6EDF3" fill-opacity="0.032"/>
+      <path d="M22 0 V44 M0 22 H44" stroke="#E6EDF3" stroke-opacity="0.025" stroke-width="0.6"/>
+    </pattern>
+
+    <!-- Sleek Silver-Blue Knight Stroke -->
+    <linearGradient id="knightStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E6EDF3" stop-opacity="0.72"/>
+      <stop offset="55%" stop-color="#79C0FF" stop-opacity="0.52"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0.18"/>
+    </linearGradient>
+
+    <clipPath id="clip">
+      <rect x="1" y="1" width="838" height="188" rx="14"/>
+    </clipPath>
+
+    <style>
+      .eyebrow {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 11.5px;
+        font-weight: 500;
+        letter-spacing: 1.4px;
+        fill: #79C0FF;
+      }
+      .name {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: -0.4px;
+        fill: #F0F6FC;
+      }
+      .sub {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        fill: #8B949E;
+      }
+      .meta {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 11.5px;
+        fill: #8B949E;
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .cursor {
+        animation: blink 1.15s steps(1, end) infinite;
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="840" height="190" fill="url(#bg)"/>
+    <rect x="440" y="0" width="400" height="190" fill="url(#chessGrid)" mask="url(#gridMask)"/>
+    <rect width="840" height="190" fill="url(#spot)"/>
+
+    <!-- Subtle Minimalist Architectural Knight Line-Art on Right -->
+    <g transform="translate(658, 22) scale(3.4)" opacity="0.9">
+      <path d="M12.5 34.5 H31.5 V37.2 H12.5 Z" fill="#58A6FF" fill-opacity="0.06" stroke="url(#knightStroke)" stroke-width="0.65" stroke-linejoin="round"/>
+      <path d="M15 34.5 C15.6 27.6 18.8 24.4 22 21.8 C18.8 21.8 15.8 22.8 13.2 23.8 C11.7 24.4 10.4 23.1 10.9 21.4 C11.7 18.6 14.4 15.5 16.9 13.3 C17.2 11.1 18.3 9 20.3 7.5 L21.3 10.5 C24.7 10.3 28.6 12.2 30.5 16.3 C32 20 31.8 26.6 30.8 34.5 Z" fill="#58A6FF" fill-opacity="0.06" stroke="url(#knightStroke)" stroke-width="0.65" stroke-linejoin="round"/>
+      <circle cx="17.2" cy="15.7" r="0.9" fill="#79C0FF" opacity="0.8"/>
+    </g>
+
+    <!-- Subtle Coordinate Accent Bottom Right -->
+    <text x="808" y="168" text-anchor="end" font-family="'SFMono-Regular', Consolas, monospace" font-size="10.5" fill="#484F58" letter-spacing="1.5">e4 · Nf3</text>
+  </g>
+
+  <!-- Crisp GitHub-native Border -->
+  <rect x="1" y="1" width="838" height="188" rx="14" fill="none" stroke="#30363D" stroke-width="1.2"/>
+
+  <!-- Left Typography Block -->
+  <g transform="translate(42, 46)">
+    <text x="0" y="0" class="eyebrow">FRONTEND DEVELOPER</text>
+    <text x="0" y="42" class="name">Ekrem Tezcan Sarıdağ</text>
+
+    <!-- Clean Thin Accent Rule -->
+    <rect x="0" y="57" width="220" height="2" rx="1" fill="url(#accentLine)"/>
+
+    <text x="0" y="84" class="sub">Web arayüzleri, modern araçlar ve temiz kod.</text>
+
+    <!-- Subtle Status Row -->
+    <g transform="translate(0, 108)">
+      <circle cx="5" cy="-4" r="3.5" fill="#3FB950"/>
+      <text x="16" y="0" class="meta">Niğde, TR  ·  Just Developer : )</text>
+      <rect x="228" y="-11" width="6.5" height="13" rx="1" fill="#58A6FF" class="cursor"/>
+    </g>
+  </g>
+</svg>
