@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="./assets/header.svg" alt="Ekrem Tezcan Sarıdağ - Frontend Developer" width="100%" />
 
 </div>
 
