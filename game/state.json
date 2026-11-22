@@ -1,1 +1,9 @@
-
+{
+  "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "last_move": null,
+  "last_san": null,
+  "last_player": null,
+  "moves": [],
+  "game_number": 1,
+  "total_moves": 0
+}
