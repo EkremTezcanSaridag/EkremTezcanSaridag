@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="32" viewBox="0 0 900 32" role="img" aria-label="Chess Gold Divider">
+  <defs>
+    <linearGradient id="lineLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#D4AF37" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#F5D98B" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="lineRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F5D98B" stop-opacity="0.9"/>
+      <stop offset="30%" stop-color="#D4AF37" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="crownGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2C6"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8A6614"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="20" y="15.3" width="384" height="1.4" fill="url(#lineLeft)"/>
+  <rect x="496" y="15.3" width="384" height="1.4" fill="url(#lineRight)"/>
+
+  <!-- Small Diamonds -->
+  <polygon points="418,12 422,16 418,20 414,16" fill="#D4AF37" opacity="0.8"/>
+  <polygon points="482,12 486,16 482,20 478,16" fill="#D4AF37" opacity="0.8"/>
+
+  <!-- Centered Miniature Crown -->
+  <g transform="translate(437, 7)">
+    <path d="M1 14 L4 4 L9 10 L13 2 L17 10 L22 4 L25 14 Z M3 16 H23 V18 H3 Z" fill="url(#crownGrad)"/>
+  </g>
+</svg>
